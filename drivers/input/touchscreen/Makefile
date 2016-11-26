@@ -101,3 +101,6 @@ obj-$(CONFIG_MACH_LONGCHEER)	+= lct_if_ctp_upgrade.o
 
 obj-$(CONFIG_TOUCHSCREEN_MSG2XXX)	+= msg2xxx.o
 obj-$(CONFIG_MACH_YULONG)		+= touchscreen_yl.o
+
+obj-$(CONFIG_SYNAPTICS_OPPO) += synaptics_oppo/
+obj-$(CONFIG_GT1X_OPPO) += gt1x/
